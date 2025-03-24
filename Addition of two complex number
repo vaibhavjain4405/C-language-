@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+    float a ,b,imga, imgb,suma,sumb;
+    
+    printf("Enter the real and img number ");
+    scanf("%f%f",&a,&imga);
+    
+    printf("Enter the real and img number ");
+    scanf("%f%f",&b,&imgb);
+    
+    suma = a +b;
+    sumb = imga+ imgb;
+    
+    printf("Sum of two complex number is %.2f +%.2fi",suma,sumb);
+ 
+    
+}
+  
