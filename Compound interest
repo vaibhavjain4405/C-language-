@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+   int p,t,n;
+   float I,r,CI;
+   
+   printf("Give your principal amount = ");
+   scanf("%d",&p);
+   
+   printf("Tell the interest rate in the amount = ");
+   scanf("%f",&r);
+   
+   printf("number of time the interest rate applied to the time period ");
+   scanf("%d",&n);
+   
+   printf("Tell the time period you keep the money");
+   scanf("%d",&t);
+   
+   I=(r/n);
+   CI = p*pow((1+I),n*t);
+   
+   printf("Compound interest of your amount is = %f", CI);
+}
